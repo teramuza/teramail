@@ -42,7 +42,8 @@ $company = array(
 ## Built With
 
 * [PHP 5](http://php.net/) - The php version used
-* [Edmin](https://www.egrappler.com/responsive-bootstrap-admin-template-edmin/) - Dependency Management
+* [Edmin](https://www.egrappler.com/responsive-bootstrap-admin-template-edmin/) - Application template
+* Time
 
 ## Versioning
 
