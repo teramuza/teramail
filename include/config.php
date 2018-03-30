@@ -154,7 +154,7 @@ $company = array(
 				echo ' '.$build_year.' '.$company_name;
 			};
 
-			echo '</b><br/>Arsip Surat By Teuku Raja. All rights reserved.';
+			echo '</b><br/>Arsip Surat By TeraLabs. All rights reserved.';
 		}
 
 /** End of Application Function **/
