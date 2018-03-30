@@ -10,7 +10,7 @@ Ubah konfigurasi Aplikasi di include/config.php
 $cfg = array(
 		'dbUser' 	=> 'root', //username database
 		'dbPass' 	=> '', //password database
-		'dbName' 	=> 'db_surat', //database name
+		'dbName' 	=> 'db_surat' //database name
 		);
 ```
 
@@ -24,7 +24,7 @@ ubah dibagian berikut
 $company = array(
 		'name' 		 => '', //nama company default
 		'short_name' => '', //nama panggilan company
-		'long_name'  => '', //nama lengkap company
+		'long_name'  => '' //nama lengkap company
 		);
 ```
 
@@ -34,7 +34,7 @@ example
 $company = array(
 		'name' 		 => 'Fobtera Indonesia', //nama company default
 		'short_name' => 'Fobtera', //nama panggilan company
-		'long_name'  => 'PT Web Technology Fobtera Indonesia', //nama lengkap company
+		'long_name'  => 'PT Web Technology Fobtera Indonesia' //nama lengkap company
 		);
 ```
 
