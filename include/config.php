@@ -18,7 +18,7 @@
 $cfg = array(
 		'dbUser' 	=> 'root', //username database
 		'dbPass' 	=> '', //password database
-		'dbName' 	=> 'db_surat', //database name
+		'dbName' 	=> 'db_surat' //database name
 		);
 
 /**********************************************
@@ -30,7 +30,7 @@ $cfg = array(
 $company = array(
 		'name' 		 => 'Fobtera Indonesia', //nama company default
 		'short_name' => 'Fobtera', //nama panggilan company
-		'long_name'  => 'PT Web Technology Fobtera Indonesia', //nama lengkap company
+		'long_name'  => 'PT Web Technology Fobtera Indonesia' //nama lengkap company
 		);
 
 /**********************************************
