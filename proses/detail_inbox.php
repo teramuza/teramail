@@ -12,9 +12,6 @@ if(isset($_GET['id'])){
 	$data = mysql_fetch_array ($query);
 }
 
-//fungsi tambahan 
-include "../include/dateindo.php";
-
 //title page
 $titlepage = "Detail Surat Masuk";
 
@@ -60,11 +57,11 @@ include "../include/header.php";
                                             </tr>
 											<tr>
                                                 <th>Tanggal Kirim</th>
-												<td><?php echo tgl_indo($data['tanggal_kirim']);?></td>
+												<td><?php echo dateindo($data['tanggal_kirim']);?></td>
                                             </tr>
 											<tr>
                                                 <th>Tanggal Terima</th>
-												<td><?php echo tgl_indo($data['tanggal_terima']);?></td>
+												<td><?php echo dateindo($data['tanggal_terima']);?></td>
                                             </tr>
                                         </tbody>
 									</table>
