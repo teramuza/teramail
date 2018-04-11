@@ -1,4 +1,4 @@
-# Project Title
+# TeraMail
 
 Aplikasi Pengarsipan Surat Sederhana PHP - TeraMail
 
@@ -14,7 +14,7 @@ $cfg = array(
 		);
 ```
 
-### Installing
+### How to Install
 
 Masukan nama company/perusahaan/organisasi kamu di file config.php
 
@@ -45,7 +45,7 @@ $company = array(
 * [Edmin](https://www.egrappler.com/responsive-bootstrap-admin-template-edmin/) - Application template
 * Time
 
-## Versioning
+## Version
 
 Version : 1.2. Build Year : 2018
 
