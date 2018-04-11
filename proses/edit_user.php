@@ -25,9 +25,7 @@ if(isset($_POST['submit'])){
  }
  
  //fungsi tambahan
- include "../include/form.php";
- include "../include/dateindo.php";
- 
+ include "../include/form.php"; 
 //title page
 $titlepage = "Update Surat Masuk";
 
