@@ -26,7 +26,6 @@ if(isset($_POST['submit'])){
  
  //fungsi tambahan
  include "../include/form.php";
- include "../include/dateindo.php";
  
 //title page
 $titlepage = "Update Surat Masuk";
@@ -55,7 +54,7 @@ include "../include/header.php";
 											
 											buat_textbox('Nomor Surat','no_surat','Example XXX/SDS/FBTR/II/2018',$data['no_surat'],'disabled');
 											buat_textbox('Jenis Surat','jenis','',$data['jenis'],'disabled');
-											buat_textbox('Tanggal Surat','tanggal','',tgl_indo($data['tanggal']),'disabled');
+											buat_textbox('Tanggal Surat','tanggal','',dateIndo($data['tanggal']),'disabled');
 											buat_textbox('Pengirim','pengirim','Masukan Nama Pengirim',$data['pengirim'],'disabled');
 											buat_textbox('Tujuan','tujuan','Masukan Nama Tujuan',$data['tujuan'],'required');
 											buat_textbox('Perihal','perihal','Example Liburan Akhir Tahun',$data['perihal'],'required');
