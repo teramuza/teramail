@@ -2,7 +2,10 @@
 //untuk mengecek status login dan variabel data login pengguna
 
 session_start();
-$arsipsurat	=	"http://".$_SERVER['SERVER_NAME']."/app_surat/";
+$arsipsurat = 	'';
+$arsipsurat	=	((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
+$arsipsurat.=	"://".$_SERVER['HTTP_HOST']; 
+$arsipsurat.=	str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
 $assets		= 	$arsipsurat. "assets/";
 $include	=	$arsipsurat. "include/";
 $proses		=	$arsipsurat. "proses/";
